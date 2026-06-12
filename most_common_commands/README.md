@@ -2,6 +2,7 @@
 
 These are the most common commands used in the git ecosystem.
 
+- [Beginner workflow](beginner_workflow/README.md): Run commands in practical order from new project to first push.
 - [git pull](pull/README.md): Pull remote commits to your local branch.
 - [git push](push/README.md): Push local commits to the remote repository.
 - [git clone](clone/README.md): Clone a remote repository locally.
