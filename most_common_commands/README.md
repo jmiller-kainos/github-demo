@@ -1,8 +1,8 @@
 # Most Common Commands
 
 These are the most common commands used in the git ecosystem.
-
-- [Beginner workflow](beginner_workflow/README.md): Run commands in practical order from new project to first push.
+- [git branch](branch/README.md): Create, list, rename, and delete branches.
+- [git checkout](checkout/README.md): Switch branches or restore files.
 - [git pull](pull/README.md): Pull remote commits to your local branch.
 - [git push](push/README.md): Push local commits to the remote repository.
 - [git clone](clone/README.md): Clone a remote repository locally.

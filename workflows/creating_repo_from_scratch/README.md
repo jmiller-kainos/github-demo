@@ -14,28 +14,26 @@ You have a new local folder and want to:
 ## Command order in practice
 
 ```bash
-# 1. Go to your project folder
-cd my-project
 
-# 2. Start Git tracking in this folder
+# 1. Start Git tracking in this folder
 git init
 
-# 3. Check current repo status
+# 2. Check current repo status
 git status
 
-# 4. Add files to staging
+# 3. Add files to staging
 git add .
 
-# 5. Create your first commit
+# 4. Create your first commit
 git commit -m "Initial commit"
 
-# 6. Create/connect a remote repository (replace with your URL)
+# 5. Create/connect a remote repository (replace with your URL)
 git remote add origin https://github.com/your-username/my-project.git
 
-# 7. Rename local branch to main (common standard)
+# 6. Rename local branch to main (common standard)
 git branch -M main
 
-# 8. Push commits and set upstream branch
+# 7. Push commits and set upstream branch
 git push -u origin main
 ```
 
