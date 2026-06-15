@@ -4,6 +4,7 @@ Welcome to this demo of how to use basic Git and GitHub functionality.
 
 ## Sections
 
+- [High level overview](high_level_overview/README.md): Foundations for Git vs GitHub, key concepts, and terminology.
 - [Workflows](workflows/): End-to-end workflows for common Git tasks.
 - [Most common commands](most_common_commands/README.md): Command-by-command reference for everyday usage.
 - [Best practices](best_practices/README.md): Guidance for clean commits and maintainable history.
