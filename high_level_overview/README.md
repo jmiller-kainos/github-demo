@@ -6,10 +6,26 @@ This guide explains the core concepts you should understand before diving into w
 
 By the end of this guide, you should understand:
 
+- What version control is and why it matters.
 - The difference between Git and GitHub.
 - When to use Git on its own vs when to use GitHub.
 - Common terminology used in day-to-day collaboration.
 - How local, staging, commit history, and remote all connect.
+
+## What is Version Control?
+
+Version control is a way to track changes to files over time.
+
+It lets you:
+
+- See what changed, when it changed, and who changed it.
+- Roll back to earlier versions if something breaks.
+- Work on new ideas safely without overwriting stable work.
+- Collaborate with others without constantly replacing each other's files.
+
+Without version control, teams often pass files around manually (for example, `report_v2_final_FINAL.docx`), which makes history hard to follow and errors hard to recover from.
+
+Git is the version control system used in this project.
 
 ## Git vs GitHub
 
@@ -36,7 +52,6 @@ You usually use both when:
 - You are working with a team.
 - You need backup/history hosted remotely.
 - You want pull requests, code review, and discussion.
-- You need CI/CD integrations and repository settings.
 
 ## Basic lingo and core areas
 
@@ -90,24 +105,6 @@ You usually use both when:
 4. You push commits to the remote repository.
 5. Teammates pull those remote changes into their local branches.
 
-## Visual model
-
 ```text
 Working Directory -> Staging Area -> Local Commits -> Remote (GitHub)
 ```
-
-## Common beginner misunderstandings
-
-- "I changed a file, so it is committed": False. Changed is not the same as committed.
-- "I committed, so my team can see it": Not until you push.
-- "GitHub and Git are the same thing": They are related, but different.
-- "Everything added with git add must be permanent": You can unstage or amend before sharing.
-
-## Quick self-check
-
-If someone asks where your change is, you should be able to answer:
-
-- Is it only in the working directory?
-- Is it staged?
-- Is it committed locally?
-- Is it pushed to remote?
